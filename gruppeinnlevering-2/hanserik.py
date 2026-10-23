@@ -25,11 +25,11 @@ def enter ():
 
 #Sum av poeng
 def sum ():
-    Return (Team tillit+Prosjekt fremdrift)
+    Return (Teamtillit+Prosjektfremdrift)
 
 #poengsum ved begynnelse av spill
-Team tillit = 40
-Prosjekt fremdrift = 40
+Teamtillit = 40
+Prosjektfremdrift = 40
 
 ##Introduksjont til spillets historie
 m()
