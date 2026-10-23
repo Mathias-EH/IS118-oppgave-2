@@ -9,8 +9,8 @@ def m ():
 
 #poeng def
 def p ():
-    print ("Teamets tillit" , Team tillit)
-    Print ("Prosjektets Fremdrift" , Prosjekt fremdrift)
+    print ("Teamets tillit" , Teamtillit)
+    Print ("Prosjektets Fremdrift:" , Prosjektfremdrift)
 
     #Spillets avslutning def
     def avsluttning ():
