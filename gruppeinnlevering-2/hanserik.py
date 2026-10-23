@@ -47,6 +47,9 @@ m()
 
 #Første beslutning
 print ("for å spille spiller, må du trykke enter")
+enter()
+
+m()
 
 #Andre beslutning
 m()
