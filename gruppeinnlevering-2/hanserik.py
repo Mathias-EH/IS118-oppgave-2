@@ -9,8 +9,8 @@ def m ():
 
 #poeng def
 def p ():
-    print ("Teamets tillit" , Teamets tillit)
-    Print ("Prosjektets Fremdrift" , Prosjektets fremdrift)
+    print ("Teamets tillit" , Team tillit)
+    Print ("Prosjektets Fremdrift" , Prosjekt fremdrift)
 
     #Spillets avslutning def
     def avsluttning ():
@@ -25,11 +25,11 @@ def enter ():
 
 #Sum av poeng
 def sum ():
-    Return (Teamets tillit+Prosjektets fremdrift)
+    Return (Team tillit+Prosjekt fremdrift)
 
 #poengsum ved begynnelse av spill
-Teamets tillit = 40
-Prosjektets fremdrift = 40
+Team tillit = 40
+Prosjekt fremdrift = 40
 
 ##Introduksjont til spillets historie
 m()
