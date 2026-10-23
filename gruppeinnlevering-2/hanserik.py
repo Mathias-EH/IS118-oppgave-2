@@ -15,7 +15,7 @@ def p ():
     #Spillets avslutning def
     def avsluttning ():
         print ("Svaret er ugyldig. Spillet avsluttes ")
-        print (m):
+        m()    
         print ("Du kan spille på nytt ved å trykke enter")
         raise (SystemExit)
 
