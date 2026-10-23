@@ -10,7 +10,7 @@ def m ():
 #poeng def
 def p ():
     print ("Teamets tillit" , Teamtillit)
-    Print ("Prosjektets Fremdrift:" , Prosjektfremdrift)
+    print ("Prosjektets Fremdrift:" , Prosjektfremdrift)
 
     #Spillets avslutning def
     def avsluttning ():
@@ -37,3 +37,19 @@ m()
 print ("Du er prosjektleder Erling, og har ansvar for kommunens nye prosjekt som går ut på å lage en ny medborger portal.")
 m()
 print ("Seks uker har passert, og samarbeidet i teamet har møtt på en del utfordringer.")
+m()
+print ("Teamet har tre uker igjen på å ferdigstille prototypen")
+m()
+print ("Erlings valg vil påvirke både teamets tillit og prosjektets fremgang")
+m()
+m()
+m()
+
+#Første beslutning
+print ("for å spille spiller, må du trykke enter")
+
+#Andre beslutning
+m()
+print ("Uke 6: Silje og Elias har havnet i en konflikt")
+m()
+print ("Silje ønsker å lage en brukervennlig og innovativ løsning for portalen")
