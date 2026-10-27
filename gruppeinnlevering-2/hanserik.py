@@ -75,7 +75,18 @@ m()
 
 #Første beslutning: valg 1
 valg1 = input ("hva vil du gjøre? (1 eller 2, 3 eller 4?) Skriv tallet for valget du vil ta")
+
 m()
 m()
 
 if valg1 == "1":
+    print ("Du velger å ta saken opp i plenum for å skape åpenhet mellom partene.")
+    print ("Flere i teamet gir sine perspektiver, men diskusjonen blir raskt preget av sterke meninger og følelser")
+    print ("Teamets tillit og motivasjon synker, og prosjektets fremdrift blir satt tilbake")
+    Teamtillit -= 20
+    Prosjektfremdrift -= 20
+elif valg1 == "2":
+    print ("Du velger å ta individuelle samtaler med silje og Elias for å finne roten til årsaken.")
+
+
+
