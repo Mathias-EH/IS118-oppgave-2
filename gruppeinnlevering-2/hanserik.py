@@ -46,7 +46,7 @@ m()
 m()
 
 #Første beslutning
-print ("for å spille spiller, må du trykke enter")
+print ("for å spille spillet, må du trykke enter")
 enter()
 
 m()
@@ -55,4 +55,27 @@ m()
 m()
 print ("Uke 6: Silje og Elias har havnet i en konflikt")
 m()
-print ("Silje ønsker å lage en brukervennlig og innovativ løsning for portalen")
+print ("Silje ønsker å lage en brukervennlig og innovativ løsning for portalen.")
+m()
+print ("Elias mener at forslaget til Silje er for kostbart og urealistisk.")
+m()
+print("Diskusjonen mellom dem blir stadig mer emosjonelle, og nå har begge begynt å trekke støtte fra sine nærmeste i gruppen.")
+m()
+m()
+print ("Du har fire valg muligheter, disse er:")
+m()
+print ("1. Du kan ta saken opp i plenum for å skape åpenhet.")
+m()
+print ("2.Ta individuelle samtaler med Silje og Elias for å finne roten til årsaken.")
+m()
+print ("3. La HR bistå for å få en nøytral håndtering av konflikten")
+m()
+print ("4. Du kan ignorere konflikten og satse på at den løser seg av seg selv")
+m()
+
+#Første beslutning: valg 1
+valg1 = input ("hva vil du gjøre? (1 eller 2, 3 eller 4?) Skriv tallet for valget du vil ta")
+m()
+m()
+
+if valg1 == "1":
