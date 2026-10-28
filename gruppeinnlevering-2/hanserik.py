@@ -7,21 +7,21 @@ def m ():
     print ("")
 
 
-#poeng def
+#poeng def: definerer hva som er poeng
 def p ():
     print ("Teamets tillit:", Teamtillit)
     print ("Prosjektets Fremdrift:", Prosjektfremdrift)
     
     m()
 
-#Avslutt spillet def
+#Avslutt spillet def: definerer om spillet avslutter ut fra om noe annet enn forventet svar kommer inn
 def avslutt ():
     print ("Svaret var ugyldig, spillet avsluttes.")
     m()
     print ("om du øsnker å spille på nytt, vennligst start konsollen på nytt")
     raise SystemExit
 
-#def trykk enter for å fortsette spillet
+#def trykk enter for å fortsette spillet: definerer at man må trykke enter for å fortsette spillet ved varsel om trykk enter.
 def enter ():
     input ()
 
@@ -29,11 +29,11 @@ def enter ():
 def sum ():
     return (Teamtillit+Prosjektfremdrift)
 
-#poengsum ved begynnelse av spill
+#poengsum ved begynnelse av spill: antall poeng du har ved begynnelsen
 Teamtillit = 40
 Prosjektfremdrift = 40
 
-##Introduksjont til spillets historie
+##Introduksjonen til spillets historie
 m()
 m()
 print (" Du er prosjektleder Erling, og har ansvar for kommunens nye prosjekt som går ut på å lage en ny medborger portal.")
