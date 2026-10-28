@@ -81,7 +81,7 @@ m()
 m()
 
 #Andre beslutning: valg 1
-valg1 = input (" Hva vil du gjøre? (1 eller 2, 3 eller 4?) Skriv tallet som representerer valget du ønsker å ta ")
+valg1 = input (" Hva vil du gjøre? (1 eller 2, 3 eller 4?) Skriv tallet som representerer valget du ønsker å ta: ")
 
 m()
 m()
