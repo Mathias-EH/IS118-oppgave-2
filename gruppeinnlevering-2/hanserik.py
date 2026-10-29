@@ -114,6 +114,7 @@ elif valg1 == "4":
     Prosjektfremdrift -=40
 else: avslutt()
 
+
 m()
 m()
 m()
@@ -121,6 +122,7 @@ m()
 #Tredje beslutning (Start)
 print (" Trykk på enter for å fortsette spillet")
 enter()
+
 
 #Beskrivelse av tredje beslutning
 m()
@@ -252,6 +254,8 @@ m()
 m()
 m()
 
+print (Teamtillit)
+print (Prosjektfremdrift)
 total = sum ()
 
 if total < 40:
