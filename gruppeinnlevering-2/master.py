@@ -254,8 +254,7 @@ m()
 m()
 m()
 
-print (Teamtillit)
-print (Prosjektfremdrift)
+p()
 total = sum ()
 
 if total < 40:
@@ -300,4 +299,6 @@ else:
     m()
     m()
     print (" for å starte spillet på nytt, start programmet på nytt!")
+
+
 

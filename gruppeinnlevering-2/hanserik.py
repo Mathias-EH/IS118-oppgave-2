@@ -254,8 +254,7 @@ m()
 m()
 m()
 
-print (Teamtillit)
-print (Prosjektfremdrift)
+p()
 total = sum ()
 
 if total < 40:
