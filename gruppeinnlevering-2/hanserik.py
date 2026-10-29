@@ -1,8 +1,7 @@
 ##Defs gjør at koden blir lettere å lese 
-#mellomrom def
 from ast import Return
 
-
+#Mellomrom def: Definerer mellomrom med bruk av m(), da printes det en tekslinje uten tekst, da for å lage et mellomrom 
 def m ():
     print ("")
 
