@@ -67,9 +67,11 @@ else:
     print("Ugyldig valg. Du må skrive 1, 2 eller 3.")
     Beslutning3 = input("\n1.	Relasjonsbygging \n2.	Leveransefokus \n3.	Retrospektiv og delmål\n")
 
-if tillit >= 3 and fremdrift <= 0:
+totalpoeng = tillit + fremdrift
+
+if totalpoeng >= 3:
     print("\nNorming: Teamet har fått bedre tillit til hverandre, men fremdriften har stoppet opp. Prototypen blir forsinket.")
-elif tillit < 0 and fremdrift < 0:
+elif totalpoeng >= 1:
     print("\nTapt samhold og forsinkelse enden er det som tilsvarer å tape spillet. Teamet til Erling er ikke fornøyd, har null tillit til Erling eller andre og progresjonen har ikke vært tilstrekkelig. Dette har ført til teamet har falt fra hverandre og en forsinkelse på levering av produktet.")
 else:
     print("\nSkjør balanse: Erling har ikke gjort tilstrekkelig nok for å tilfredstille teamet eller gjort nok progresjon for å lage prototypen. Konfliktene har blitt ordnet opp i, men relasjonene har tatt seg en støyt. Erling har gjort flere ting korrekt, men Erling har i tillegg gjort feil valg gjennom spillet.")
